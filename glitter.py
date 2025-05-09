@@ -43,7 +43,7 @@ def main():
             else:
                 paths_to_scan.extend([f for f in dir_path.iterdir() if f.is_file()])
         else:
-            print(colorama.Fore.RED + f"[!] Invalid path: {p}" + colorama.Fore.RESET)
+            print(colorama.Fore.RED + f"[-] Invalid path: {p}" + colorama.Fore.RESET)
 
     if paths_to_scan:
         for file_path in paths_to_scan:
@@ -52,7 +52,7 @@ def main():
             if result:
                 report_data.append(result)
     else:
-        print(colorama.Fore.LIGHTRED_EX + "[-] No files to scan in " + args.output + colorama.Fore.RESET)
+        print(colorama.Fore.LIGHTRED_EX + "[-] No files to scan" + colorama.Fore.RESET)
 
     if report_data:
         generate_html_report(report_data, scanned_files_count, args.output)
