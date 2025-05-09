@@ -114,5 +114,15 @@ To scan a directory recursively and disable YARA rule generation:
 python glitter.py -p /path/to/directory -r --no-yara
 ```
 
+## Limitations & Scope
+Glitter performs **static IOC extraction** using regex-based detection. It works best on:
+- Plaintext files containing threat indicators
+- Malware samples that are not obfuscated or packed
+- Logs, reports, or sandbox outputs
+
+**Important**: If malware samples use encryption, compression, dynamic C2 generation, or packing techniques, Glitter may not detect any IOCs. These techniques are common in real-world malware to evade basic static analysis. Glitter is intentionally lightweight and does not perform dynamic analysis, decryption, or unpacking.
+
+This tool is ideal as a **first-pass triage tool** or part of a broader threat hunting pipeline.
+
 ## **Contact**
 Feel free to reach out to me via LinkedIn: [Nouran Abdelsalam](https://www.linkedin.com/in/nouranabdelsalam/)
