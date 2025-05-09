@@ -1,0 +1,10 @@
+{
+  "api-key": "your-api-key-here",
+  "thresholds": {
+    "reputation": -5,
+    "malicious_ratio": 0.1,
+    "malicious_detections": 3,
+    "suspicious_detections": 3
+  },
+  "scan_count": 1
+}
