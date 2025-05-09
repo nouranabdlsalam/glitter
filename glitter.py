@@ -78,6 +78,8 @@ def scan_file(file_path, args):
     yara_rules_path = ""
     if not args.no_yara:
         yara_rules_path = generate_yara_rules(results, str(file_path), args.output, args.verbose)
+    else:
+        yara_rules_path = "YARA rules were not generated based on user choice."
 
     return {"file_path": file_path, "scan_results": results, "yara_rules_path": yara_rules_path,
             "number_of_extracted_ip_iocs": len(ip_iocs), "number_of_extracted_url_iocs": len(url_iocs)}
