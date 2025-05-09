@@ -13,7 +13,7 @@ Glitter extracts IOCs (IPs, URLs) from binary and text files, validates them usi
 - **Sleek Output**: Provides clear and organized output with an optional custom ASCII banner for added flair.
 
 ## Demo
-![Glitter in Action](demo.gif)
+![Glitter in Action](assets/demo.gif)
 
 ## Installation
 
@@ -97,6 +97,11 @@ python glitter.py -p path/to/file/or/directory [options]
    ```bash
   python glitter.py -p /path/to/file -v
    ```
+  
+- `-h`, `--help`: **Optional**. Display the help message with all available options and exit.
+   ```bash
+   python glitter.py -h
+  ```
   
 ### Examples:
 To scan a file and generate output with YARA rules in a specific output folder:
