@@ -13,7 +13,7 @@ Glitter extracts IOCs (IPs, URLs) from binary and text files, validates them usi
 - **VirusTotal Validation**: Validates extracted IOCs using VirusTotal for immediate threat intelligence.
 - **YARA Rule Generation**: Automatically generates custom YARA rules based on detected IOCs for further analysis.
 - **Configurable Detection Thresholds**: Adjust detection sensitivity via the `conf.json` configuration file.
-- **Cross-Platform Support**: Works seamlessly on Windows, macOS, and Linux.
+- **Cross-Platform Support**: Works seamlessly on Windows and Linux.
 - **Sleek Output**: Provides clear and organized output with an optional custom ASCII banner for added flair.
 
 ## Demo
