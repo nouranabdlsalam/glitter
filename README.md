@@ -28,7 +28,7 @@ The following demo shows Glitter scanning a `dummy.exe` file that contains simul
 ## Installation
 
 ### Prerequisites:
-- Python 3.6 or higher
+- Python 3.8 or higher
 - pip (Python package installer)
 - VirusTotal API key (required for IOC validation)
 
