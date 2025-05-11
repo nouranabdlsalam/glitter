@@ -1,7 +1,8 @@
-<h1>
-  <img src="assets/logo.png" alt="Glitter Logo" height="80" style="vertical-align:middle;">
-  <span style="vertical-align:middle; margin-left: 10px;">Glitter</span>
-</h1>
+<img align="left" src="assets/logo.png" alt="Glitter Logo" height="80">
+
+# Glitter
+
+
 An Automated IOC Extraction, Validation & YARA Rule Generation Tool for Malware Analysis & Threat Detection
 
 ## Overview
