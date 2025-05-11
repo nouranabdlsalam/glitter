@@ -1,4 +1,4 @@
-# Glitter ✨
+# <img src="assets/logo.png" alt="Glitter Logo" height="80" style="vertical-align: middle;"> Glitter  
 An Automated IOC Extraction, Validation & YARA Rule Generation Tool for Malware Analysis & Threat Detection
 
 ## Overview
