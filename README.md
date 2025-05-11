@@ -1,4 +1,7 @@
-# <img src="assets/logo.png" alt="Glitter Logo" height="80"> Glitter  
+<h1>
+  <img src="assets/logo.png" alt="Glitter Logo" height="80" style="vertical-align:middle;">
+  <span style="vertical-align:middle; margin-left: 10px;">Glitter</span>
+</h1>
 An Automated IOC Extraction, Validation & YARA Rule Generation Tool for Malware Analysis & Threat Detection
 
 ## Overview
@@ -17,6 +20,7 @@ Glitter extracts IOCs (IPs, URLs) from binary and text files, validates them usi
 The following demo shows Glitter scanning a `dummy.exe` file that contains simulated IOCs — two malicious IP addresses from AbuseIPDB and one malicious URL from URLHaus. The tool successfully extracts the IOCs, validates them via VirusTotal, and generates custom YARA rules and a detailed report.
 
 > ⚠️ For safety and ethical reasons, the demo file (`dummy.exe`) is **not included** in the repository. It contains no functional payloads, only hardcoded IOC strings for demonstration purposes.
+
 
 ![Glitter in Action](assets/demo.gif)
 
