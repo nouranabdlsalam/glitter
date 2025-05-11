@@ -3,7 +3,7 @@
 # Glitter
 
 
-An Automated IOC Extraction, Validation & YARA Rule Generation Tool for Malware Analysis & Threat Detection
+An Automated IOC Extraction, Validation & YARA Rule Generation Tool for Malware Analysis & Threat Detection.
 
 ## Overview
 Glitter extracts IOCs (IPs, URLs) from binary and text files, validates them using VirusTotal, and generates custom YARA rules for detection based on the results.
